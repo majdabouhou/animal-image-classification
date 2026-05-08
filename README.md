@@ -112,8 +112,8 @@ animal-image-classification/
 ├── LICENSE
 ├── .gitignore
 ├── src/
-│   ├── model.py
-│   └── evaluate.py
+│   ├── modele.py
+│   └── evaluation.py
 └── results/
     ├── architecture_diagram.png
     ├── confusion_matrix.png
@@ -154,7 +154,7 @@ data/
 └── test/         (same six subfolders, 200 images each)
 ```
 
-Update `MAIN_DATA_PATH` at the top of `src/model.py` and `src/evaluate.py` to
+Update `mainDataPath` at the top of `src/modele.py` and `src/evaluation.py` to
 point at your local `data/` directory (the scripts default to the Kaggle
 `/kaggle/input/...` path that was used to produce the reported results).
 
