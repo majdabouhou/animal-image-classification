@@ -161,7 +161,7 @@ point at your local `data/` directory (the scripts default to the Kaggle
 ### 3. Train
 
 ```bash
-python src/model.py
+python src/modele.py
 ```
 
 The best model (highest `val_accuracy`) is saved to `Model.keras`.
@@ -169,7 +169,7 @@ The best model (highest `val_accuracy`) is saved to `Model.keras`.
 ### 4. Evaluate
 
 ```bash
-python src/evaluate.py
+python src/evaluation.py
 ```
 
 This loads the saved model, runs it on the test set, prints accuracy and loss,

@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Trained models and weights (too large for git)
+*.keras
+*.h5
+*.hdf5
+*.tflite
+*.onnx
+
+# Datasets (never commit raw data)
+data/
+datasets/
+
+# Logs and intermediate files
+logs/
+*.log
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment / secrets
+.env
+.env.local
+
+# Kaggle
+kaggle.json
